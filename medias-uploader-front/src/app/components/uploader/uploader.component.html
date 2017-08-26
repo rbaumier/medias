@@ -1,0 +1,8 @@
+<p-fileUpload
+  [url]="uploadUrl"
+  name="file"
+  multiple="multiple"
+  accept="image/*,video/*"
+  (onUpload)="onUpload($event)"
+  (onError)="onError($event)"
+></p-fileUpload>

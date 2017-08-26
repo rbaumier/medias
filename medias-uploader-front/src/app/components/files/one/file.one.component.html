@@ -1,0 +1,16 @@
+<div class="col-sm-6">
+  <div class="card file-card">
+    <a [href]="getPath(file)" target="_blank">
+      <img class="card-img-top" [src]="getPath(file)" (click)="open()">
+    </a>
+    <div class="controls-btn">
+      <!-- <a class="download-content" [href]="getPath(file)">{{ file | truncate : 32 }}</a> -->
+      <a class="btn btn-success" [href]="getPath(file)" download="">
+        <i class="download-icon fa fa-arrow-down" aria-hidden="true"></i>
+      </a>
+      <a class="btn btn-danger" (click)="remove()">
+        <i class="download-icon fa fa-remove" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>

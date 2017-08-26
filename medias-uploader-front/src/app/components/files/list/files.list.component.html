@@ -1,0 +1,7 @@
+<div class="list-files row">
+  <file-one
+    *ngFor="let file of files$ | async"
+    [file]=file
+    (onRemove)="onRemove($event)"
+  ></file-one>
+</div>

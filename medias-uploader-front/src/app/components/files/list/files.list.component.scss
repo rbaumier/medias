@@ -1,0 +1,33 @@
+.download-content {
+  margin: 10px 0;
+  display: inline-block;
+  min-width: 230px;
+}
+
+.download-button {
+  padding: 4px;
+  background-color: #f3f3f3;
+  border-radius: 25px;
+}
+
+.download-button:hover {
+  background-color: #7f8c8d;
+}
+
+.download-icon {
+  padding: 10px;
+  color: #7f8c8d;
+}
+
+.download-icon:hover {
+  padding: 10px;
+  color: #f3f3f3;
+}
+
+.list-files {
+  padding-left: 20px;
+  margin-top: 25px;
+  height: 70vh;
+  overflow: scroll;
+}
+
